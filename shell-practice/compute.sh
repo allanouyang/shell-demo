@@ -19,7 +19,6 @@ then
     echo "a不等于b";
 fi
 a=$b;
-if [$a == $b] 
-then
+if [ $a == $b ] then
     echo "a等于b";
 fi
