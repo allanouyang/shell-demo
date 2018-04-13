@@ -14,7 +14,8 @@ var_div=`expr $b / $a`;
 echo "b / a = $var_div";
 var_mod=`expr $b % $a`;
 echo "b % a = $var_mod";
-if [$a != $b] then
+if [ $a != $b ] 
+then
     echo "a不等于b";
 fi
 a=$b;
