@@ -18,3 +18,8 @@ var_bool = [$a != $b];
 if $var_bool then
     echo "a不等于b";
 fi
+a=$b;
+var_boo = [$a == $b];
+if $var_bool then
+    echo "a等于b";
+fi
