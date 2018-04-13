@@ -45,5 +45,14 @@ string="runoob is a great site"
 echo ${string:1:4}
 
 # 查找子字符串
-index=`expr index "$string" is`
-echo $index
+# index=`expr index "$string" is`
+# echo $index
+
+# array
+array_name=(value0 value1 value2 value3)
+array_name[4]=value4
+echo ${array_name[0]}
+echo ${array_name[@]}
+echo ${array_name[*]}
+echo ${#array_name[@]}
+echo ${#array_name[1]}
