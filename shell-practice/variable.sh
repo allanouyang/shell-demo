@@ -45,4 +45,5 @@ string="runoob is a great site"
 echo ${string:1:4}
 
 # 查找子字符串
-echo `expr index "$string" is`
+index=`expr index "$string" is`
+echo $index
