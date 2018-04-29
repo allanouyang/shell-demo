@@ -8,3 +8,6 @@ echo -e "OK! \n"
 echo "It is a test"
 echo -e "OK! \c"
 echo "It is a test"
+echo "It is a test" > tmp.txt
+echo '$name\"'
+echo `date`
